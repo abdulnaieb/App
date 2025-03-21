@@ -1,0 +1,13 @@
+{
+  "name": "Mobile_Application",
+  "version": "1.0.0",
+  "android": {
+    "package": "com.anonymous.mobile_application",
+    "permissions": [
+      "CAMERA",
+      "NOTIFICATIONS",
+      "MEDIA_LIBRARY",
+      "INTERNET"
+    ]
+  }
+}
