@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "allowJs": true,
     "jsx": "react-native",
     "noEmit": true,
@@ -15,10 +18,18 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "*": ["*", "src/*", "LoveConnectApp/*"]
+      "*": [
+        "*",
+        "src/*",
+        "LoveConnectApp/*"
+      ]
     },
     "forceConsistentCasingInFileNames": true,
-    "types": ["react", "react-native", "node"]
+    "types": [
+      "react",
+      "react-native",
+      "node"
+    ]
   },
   "exclude": [
     "node_modules",
@@ -33,5 +44,6 @@
     "**/*.tsx",
     "LoveConnectApp/**/*.ts",
     "LoveConnectApp/**/*.tsx"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
